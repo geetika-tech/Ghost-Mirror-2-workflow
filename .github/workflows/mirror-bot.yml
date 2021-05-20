@@ -8,8 +8,8 @@ on:
    
 env:
   # Change these values if you have forked it for your own works
-  GitHubMail: "hiteshkamble920@gmail.com"
-  GitHubName: "hitesh920" 
+  GitHubMail: "itsyashx1@gmail.com"
+  GitHubName: "itsyashx1" 
   Branch: "master"
 
 jobs:
@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@main
+        uses: actions/checkout@v2
 
       - name: Set Git Configs & Secrets
         run: |
